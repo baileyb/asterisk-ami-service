@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm log/asterisk.log
+touch log/asterisk.log
+clear
+tail -f log/asterisk.log
